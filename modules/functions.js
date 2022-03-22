@@ -12,7 +12,7 @@ const adder = (e)=>{
   if (form.title.value && form.author.value) {
     const obj = new Whole(form.title.value, form.author.value);
     main.push(obj);
-    let s = localStorage.setItem('list', JSON.stringify(main));      
+    localStorage.setItem('list', JSON.stringify(main));      
     // Create book every list container
     const div = document.createElement('div');
     const span1 = document.createElement('span');
@@ -41,6 +41,6 @@ const adder = (e)=>{
 }
 
 export {addFunction, adder}
-import { form, container, list, navAdd, bookslistContainer, h1, contact, contactSection } from './references.js'
+import { form, container, list, navAdd, h1, contact, contactSection } from './references.js'
 import { main } from '../index.js'
 import { Whole } from './class.js'

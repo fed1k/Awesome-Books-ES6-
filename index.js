@@ -1,15 +1,19 @@
 import {addFunction, adder} from './modules/functions.js'
 import {add, form, container, round, list, navAdd, btn, body, h1, contact, logo, contactSection} from './modules/references.js'
 export { main}
+import { DateTime } from "./node_modules/luxon/src/luxon.js";
 
 // Clock with date and hour
 const dateSpan = document.querySelector('#span');
 const dateShower = ()=>{
-  const date = new Date();
-  let hour = date.getHours();
-  let minute = date.getMinutes();
-  let second = date.getSeconds();
-  dateSpan.textContent = `${hour}:${minute}:${second}`;
+  // const date = new DateTime();
+  let year = DateTime.now().year;
+  let month = DateTime.now().month;
+  let day = DateTime.now().day;
+  let hour = DateTime.now().hour;
+  let minute = DateTime.now().minute;
+  let second = DateTime.now().second;
+  dateSpan.textContent = `${year}/${month}/${day} ${hour}:${minute}:${second}`;
 }
 setInterval(dateShower, 1000);
 
