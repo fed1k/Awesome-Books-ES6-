@@ -18,7 +18,6 @@ const adder = (e)=>{
     const span1 = document.createElement('span');
     const remove = document.createElement('button');
     div.className = 'listDiv';
-    // bookslistContainer = div;
     remove.textContent = 'Remove';
     remove.className = 'remove';
     container.appendChild(div);

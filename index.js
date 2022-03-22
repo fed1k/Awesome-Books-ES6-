@@ -6,7 +6,6 @@ import { DateTime } from "./node_modules/luxon/src/luxon.js";
 // Clock with date and hour
 const dateSpan = document.querySelector('#span');
 const dateShower = ()=>{
-  // const date = new DateTime();
   let year = DateTime.now().year;
   let month = DateTime.now().month;
   let day = DateTime.now().day;
