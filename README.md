@@ -1,7 +1,7 @@
 # Awesome-Books-ES6-
 
-[screenshots](night.png)
-[screenshots](day.png)
+![screenshots](night.png)
+![screenshots](day.png)
 
 ## Built with 
  * HTML
