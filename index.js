@@ -1,7 +1,7 @@
 import {addFunction, adder} from './modules/functions.js'
 import {add, form, container, round, list, navAdd, btn, body, h1, contact, logo, contactSection} from './modules/references.js'
 export { main}
-import { DateTime } from "./luxon/src/luxon.js";
+import { DateTime } from "./node_modules/luxon/src/luxon.js";
 
 // Clock with date and hour
 const dateSpan = document.querySelector('#span');
