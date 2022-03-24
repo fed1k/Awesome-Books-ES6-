@@ -38,11 +38,10 @@ To get a local copy up and running follow these simple example steps:
 
 ## Author
 
-👤 **Miguel Tapia**
+👤 **Allamurotov Firdavs**
 
 - Github: [@fed1k](https://github.com/fed1k)
 - Linkedin: [linkedin](https://www.linkedin.com/in/firdavs-allamurotov-12b60a226/)
-- Or talk to me directly at: original.mtapia@outlook.com
 
 
 ## 🤝 Contributing
