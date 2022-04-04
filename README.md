@@ -1,3 +1,7 @@
+# Awesome books project
+This project is based on previous Awesome books project but in this project new ES6 syntax has been used.
+And in this project you can add or remove book from the list. And also if you make a mistake in writing name of your book, you can edit the name of the book. Last but not least, there is night mode version  if you prefer dark colors.
+
 ![screenshot](./night.png)
 ![screenshot](./day.png)
 
